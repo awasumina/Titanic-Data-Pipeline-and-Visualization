@@ -1,10 +1,10 @@
-# 🚢 Titanic Data Pipeline: Gender-Based Survival Analysis using PostgreSQL and Airbyte
+#  Titanic Data Pipeline: Gender-Based Survival Analysis using PostgreSQL and Airbyte
 
 This project demonstrates an end-to-end data engineering workflow using the famous Titanic dataset. The main objective is to ingest the dataset into PostgreSQL, sync it across databases using Airbyte, apply SQL transformations, and analyze survival rates based on gender.
 
 ---
 
-## 📦 Dataset Overview
+## Dataset Overview
 
 The dataset contains passenger details including:
 - `passenger_id`
@@ -27,7 +27,7 @@ Example records:
 
 ---
 
-## 🛠️ Tools Used
+##  Tools Used
 
 - **PostgreSQL** – Database to store raw and transformed data
 - **Airbyte** – Data integration platform to sync PostgreSQL ➝ PostgreSQL
@@ -36,7 +36,7 @@ Example records:
 
 ---
 
-## 🔁 ETL Workflow
+## ETL Workflow
 
 1. **Extract** Titanic data from Kaggle.
 2. **Load** into a source PostgreSQL database (`titanic_raw`).
@@ -46,7 +46,7 @@ Example records:
 
 ---
 
-## 📈 Interpretation
+##  Interpretation
 
 * **Male** passengers had a **survival rate of 18.9%**, indicating that most did not survive.
 * **Female** passengers had a **survival rate of 74.2%**, showing a significantly higher chance of survival.
